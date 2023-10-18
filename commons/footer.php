@@ -1,122 +1,104 @@
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-white text-muted">
-  <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Nos contacts :</span>
-    </div>
-    <!-- Left -->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
 
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
+  <footer class="text-white text-center text-lg-start bg-dark">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row mt-4">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">A Propos de l'APP VOLET</h5>
 
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3 text-secondary"></i>App VOLET
-          </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
+            Spécialistes en IoT et en Systèmes Embarqués, nous serons à mesure de connecter tous vos volets à une application et de connecter les éléments de votre habitat
+            <p>Un habitat ? Une Intelligence ? App Volet ! </p>           
+            </p>
+
+    
+
+          <div class="mt-4">
+            <!-- Facebook -->
+            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f">Haut de Page</i></a>
+            <!-- Dribbble -->
+            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f">Technologies
+            <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Capteurs</a></li>
+                    <li><a class="dropdown-item" href="#">Moteurs</a></li>
+                    <li><a class="dropdown-item" href="#">Electronique</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Logiciel embarqué</a></li>
+                    <li><a class="dropdown-item" href="#"> Application</a></li>
+                </ul>
+            </i></a>
+            <!-- Twitter -->
+            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter">Equipe</i></a>
+            <!-- Google + -->
+            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g">Quizz</i></a>
+            <!-- Linkedin -->
+          </div>
         </div>
-        <!-- Grid column -->
+        <!--Grid column-->
 
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
-        </div>
-        <!-- Grid column -->
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 pb-1">Recherche</h5>
 
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
+          <div class="form-outline form-white mb-4">
+            <input type="text" id="formControlLg" class="form-control form-control-lg" />
+            <label class="btn btn-outline-success " for="formControlLg">Search</label>
+          </div>
 
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3 text-secondary"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          <ul class="fa-ul" style="margin-left: 1.65em;">
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Campus d'Annecy, 74690, Annecy-le-vieux</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">Domotic@app_volet.com</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">04 23 67 88 40</span>
+            </li>
+          </ul>
         </div>
-        <!-- Grid column -->
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Horaires d'Ouverture</h5>
+
+          <table class="table text-center text-white">
+            <tbody class="fw-normal">
+              <tr>
+                <td>Lundi - Mardi:</td>
+                <td>8:00 - 9:00</td>
+              </tr>
+
+              <tr>
+                <td>Mercredi - Jeudi:</td>
+                <td>9:00 - 10:00</td>
+              </tr>
+
+              <tr>
+                <td>Vendredi - Samedi:</td>
+                <td>8:00 - 13:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--Grid column-->
       </div>
-      <!-- Grid row -->
+      <!--Grid row-->
     </div>
-  </section>
-  <!-- Section: Links  -->
+    <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</div>
+<!-- End of .container -->;

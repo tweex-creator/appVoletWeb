@@ -29,10 +29,10 @@
               </li>
             </ul>
 
-  <form class="d-flex ms-auto"">
+  <!---<form class="d-flex ms-auto"">
         <input class="form-control me-2 text-dark" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success text-dark" type="submit">Search</button>
-      </form>
+      </form>---!>
           </div>
         </div>
 </nav>
